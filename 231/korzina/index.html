@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина товаров</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="cart-container">
+        <h1>Корзина товаров</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Товар</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Итого</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Футболка</td>
+                    <td>500 ₽</td>
+                    <td>2</td>
+                    <td>1000 ₽</td>
+                    <td><button class="button remove-button">Удалить</button></td>
+                </tr>
+                <tr>
+                    <td>Джинсы</td>
+                    <td>1500 ₽</td>
+                    <td>1</td>
+                    <td>1500 ₽</td>
+                    <td><button class="button remove-button">Удалить</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">Общая сумма: 2500 ₽</div>
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="button">Оформить заказ</button>
+        </div>
+    </div>
+
+</body>
+</html>
